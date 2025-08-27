@@ -1,0 +1,78 @@
+[0.008s] Invoking command in '/home/yuzhe/omx_ws/build/robotis_manipulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuzhe/ros2_ws/install/py_pubsub:/home/yuzhe/ros2_ws/install/open_manipulator_x_teleop:/home/yuzhe/ros2_ws/install/my_turtlebot_node:/home/yuzhe/ros2_ws/install/my_test:/opt/ros/humble /usr/bin/cmake /home/yuzhe/omx_ws/src/robotis_manipulator -DCMAKE_INSTALL_PREFIX=/home/yuzhe/omx_ws/install/robotis_manipulator
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.081s] -- The CXX compiler identification is GNU 11.4.0
+[0.085s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.139s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.139s] -- Detecting C compile features
+[0.139s] -- Detecting C compile features - done
+[0.141s] -- Detecting CXX compiler ABI info
+[0.195s] -- Detecting CXX compiler ABI info - done
+[0.200s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.200s] -- Detecting CXX compile features
+[0.200s] -- Detecting CXX compile features - done
+[0.205s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.312s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.369s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.394s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.396s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.401s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.408s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.443s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.444s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.501s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.519s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.551s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.555s] -- Looking for pthread.h
+[0.605s] -- Looking for pthread.h - found
+[0.605s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.653s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.654s] -- Found Threads: TRUE  
+[0.723s] -- Configuring done
+[0.728s] -- Generating done
+[0.730s] -- Build files have been written to: /home/yuzhe/omx_ws/build/robotis_manipulator
+[0.737s] Invoked command in '/home/yuzhe/omx_ws/build/robotis_manipulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuzhe/ros2_ws/install/py_pubsub:/home/yuzhe/ros2_ws/install/open_manipulator_x_teleop:/home/yuzhe/ros2_ws/install/my_turtlebot_node:/home/yuzhe/ros2_ws/install/my_test:/opt/ros/humble /usr/bin/cmake /home/yuzhe/omx_ws/src/robotis_manipulator -DCMAKE_INSTALL_PREFIX=/home/yuzhe/omx_ws/install/robotis_manipulator
+[0.737s] Invoking command in '/home/yuzhe/omx_ws/build/robotis_manipulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuzhe/ros2_ws/install/py_pubsub:/home/yuzhe/ros2_ws/install/open_manipulator_x_teleop:/home/yuzhe/ros2_ws/install/my_turtlebot_node:/home/yuzhe/ros2_ws/install/my_test:/opt/ros/humble /usr/bin/cmake --build /home/yuzhe/omx_ws/build/robotis_manipulator -- -j20 -l20
+[0.773s] [ 42%] [32mBuilding CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_trajectory_generator.cpp.o[0m
+[0.773s] [ 42%] [32mBuilding CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_manager.cpp.o[0m
+[0.773s] [ 42%] [32mBuilding CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_log.cpp.o[0m
+[0.774s] [ 71%] [32mBuilding CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator.cpp.o[0m
+[0.774s] [ 71%] [32mBuilding CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_common.cpp.o[0m
+[0.775s] [ 85%] [32mBuilding CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_math.cpp.o[0m
+[5.759s] [100%] [32m[1mLinking CXX shared library librobotis_manipulator.so[0m
+[5.947s] [100%] Built target robotis_manipulator
+[5.956s] Invoked command in '/home/yuzhe/omx_ws/build/robotis_manipulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuzhe/ros2_ws/install/py_pubsub:/home/yuzhe/ros2_ws/install/open_manipulator_x_teleop:/home/yuzhe/ros2_ws/install/my_turtlebot_node:/home/yuzhe/ros2_ws/install/my_test:/opt/ros/humble /usr/bin/cmake --build /home/yuzhe/omx_ws/build/robotis_manipulator -- -j20 -l20
+[5.958s] Invoking command in '/home/yuzhe/omx_ws/build/robotis_manipulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuzhe/ros2_ws/install/py_pubsub:/home/yuzhe/ros2_ws/install/open_manipulator_x_teleop:/home/yuzhe/ros2_ws/install/my_turtlebot_node:/home/yuzhe/ros2_ws/install/my_test:/opt/ros/humble /usr/bin/cmake --install /home/yuzhe/omx_ws/build/robotis_manipulator
+[5.963s] -- Install configuration: ""
+[5.963s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/lib/librobotis_manipulator.so
+[5.965s] -- Set runtime path of "/home/yuzhe/omx_ws/install/robotis_manipulator/lib/librobotis_manipulator.so" to ""
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/include/
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/include//robotis_manipulator
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_trajectory_generator.h
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator.h
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_log.h
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_common.h
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_math.h
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_manager.h
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/environment/library_path.sh
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/environment/library_path.dsv
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/ament_index/resource_index/package_run_dependencies/robotis_manipulator
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/ament_index/resource_index/parent_prefix_path/robotis_manipulator
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/environment/ament_prefix_path.sh
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/environment/ament_prefix_path.dsv
+[5.966s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/environment/path.sh
+[5.967s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/environment/path.dsv
+[5.967s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.bash
+[5.967s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.sh
+[5.967s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.zsh
+[5.967s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.dsv
+[5.967s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/package.dsv
+[5.967s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/ament_index/resource_index/packages/robotis_manipulator
+[5.967s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.967s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.967s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_libraries-extras.cmake
+[5.967s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/robotis_manipulatorConfig.cmake
+[5.967s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/robotis_manipulatorConfig-version.cmake
+[5.967s] -- Installing: /home/yuzhe/omx_ws/install/robotis_manipulator/share/robotis_manipulator/package.xml
+[5.969s] Invoked command in '/home/yuzhe/omx_ws/build/robotis_manipulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuzhe/ros2_ws/install/py_pubsub:/home/yuzhe/ros2_ws/install/open_manipulator_x_teleop:/home/yuzhe/ros2_ws/install/my_turtlebot_node:/home/yuzhe/ros2_ws/install/my_test:/opt/ros/humble /usr/bin/cmake --install /home/yuzhe/omx_ws/build/robotis_manipulator

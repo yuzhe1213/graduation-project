@@ -1,0 +1,28 @@
+[0.336s] Invoking command in '/home/yuzhe/omx_ws/src/open_manipulator/open_manipulator_x_teleop': AMENT_PREFIX_PATH=/home/yuzhe/omx_ws/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuzhe/omx_ws/install/open_manipulator_msgs LD_LIBRARY_PATH=/home/yuzhe/omx_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yuzhe/omx_ws/build/open_manipulator_x_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuzhe/omx_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages:/home/yuzhe/omx_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/open_manipulator_x_teleop build --build-base /home/yuzhe/omx_ws/build/open_manipulator_x_teleop/build install --record /home/yuzhe/omx_ws/build/open_manipulator_x_teleop/install.log --single-version-externally-managed install_data
+[0.468s] running egg_info
+[0.469s] writing ../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/PKG-INFO
+[0.469s] writing dependency_links to ../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/dependency_links.txt
+[0.469s] writing entry points to ../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/entry_points.txt
+[0.469s] writing requirements to ../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/requires.txt
+[0.469s] writing top-level names to ../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/top_level.txt
+[0.470s] reading manifest file '../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/SOURCES.txt'
+[0.471s] writing manifest file '../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/SOURCES.txt'
+[0.471s] running build
+[0.471s] running build_py
+[0.471s] copying open_manipulator_x_teleop/script/voice_arm_control.py -> /home/yuzhe/omx_ws/build/open_manipulator_x_teleop/build/lib/open_manipulator_x_teleop/script
+[0.471s] running install
+[0.471s] running install_lib
+[0.472s] copying /home/yuzhe/omx_ws/build/open_manipulator_x_teleop/build/lib/open_manipulator_x_teleop/script/voice_arm_control.py -> /home/yuzhe/omx_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages/open_manipulator_x_teleop/script
+[0.473s] byte-compiling /home/yuzhe/omx_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages/open_manipulator_x_teleop/script/voice_arm_control.py to voice_arm_control.cpython-310.pyc
+[0.473s] running install_data
+[0.473s] running install_egg_info
+[0.474s] removing '/home/yuzhe/omx_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages/open_manipulator_x_teleop-2.3.0-py3.10.egg-info' (and everything under it)
+[0.474s] Copying ../../../build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info to /home/yuzhe/omx_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages/open_manipulator_x_teleop-2.3.0-py3.10.egg-info
+[0.475s] running install_scripts
+[0.486s] Installing armm script to /home/yuzhe/omx_ws/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop
+[0.486s] Installing gripper_teleop script to /home/yuzhe/omx_ws/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop
+[0.486s] Installing teleop_keyboard script to /home/yuzhe/omx_ws/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop
+[0.486s] Installing voice_arm_control script to /home/yuzhe/omx_ws/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop
+[0.487s] Installing voice_control script to /home/yuzhe/omx_ws/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop
+[0.487s] writing list of installed files to '/home/yuzhe/omx_ws/build/open_manipulator_x_teleop/install.log'
+[0.502s] Invoked command in '/home/yuzhe/omx_ws/src/open_manipulator/open_manipulator_x_teleop' returned '0': AMENT_PREFIX_PATH=/home/yuzhe/omx_ws/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuzhe/omx_ws/install/open_manipulator_msgs LD_LIBRARY_PATH=/home/yuzhe/omx_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yuzhe/omx_ws/build/open_manipulator_x_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuzhe/omx_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages:/home/yuzhe/omx_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/open_manipulator_x_teleop build --build-base /home/yuzhe/omx_ws/build/open_manipulator_x_teleop/build install --record /home/yuzhe/omx_ws/build/open_manipulator_x_teleop/install.log --single-version-externally-managed install_data

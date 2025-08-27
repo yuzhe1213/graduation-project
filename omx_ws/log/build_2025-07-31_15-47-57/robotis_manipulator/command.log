@@ -1,0 +1,1 @@
+Invoking command in '/home/yuzhe/omx_ws/build/robotis_manipulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuzhe/my_ros2_ws/install/tb4_nav_pkg:/home/yuzhe/omx_ws/install/robotis_manipulator:/home/yuzhe/omx_ws/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/yuzhe/omx_ws/build/robotis_manipulator -- -j20 -l20

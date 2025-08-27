@@ -1,0 +1,15 @@
+[  1%] Built target open_manipulator_msgs__cpp
+failed to create symbolic link '/home/yuzhe/omx_ws/build/open_manipulator_msgs/ament_cmake_python/open_manipulator_msgs/open_manipulator_msgs' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_open_manipulator_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_open_manipulator_msgs] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_open_manipulator_msgs.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 12%] Built target open_manipulator_msgs__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target open_manipulator_msgs__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target open_manipulator_msgs__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 24%] Built target open_manipulator_msgs__rosidl_typesupport_cpp
+[ 25%] [32m[1mLinking CXX shared library libopen_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 26%] [32m[1mLinking CXX shared library libopen_manipulator_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 36%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp
+[ 47%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_cpp
+gmake: *** [Makefile:146: all] Error 2

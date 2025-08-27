@@ -1,0 +1,14 @@
+{
+  "package_name": "open_manipulator_msgs",
+  "non_idl_tuples": [
+    "/home/yuzhe/omx_ws/src/open_manipulator_msgs:msg/JointPosition.msg",
+    "/home/yuzhe/omx_ws/src/open_manipulator_msgs:msg/KinematicsPose.msg",
+    "/home/yuzhe/omx_ws/src/open_manipulator_msgs:msg/OpenManipulatorState.msg",
+    "/home/yuzhe/omx_ws/src/open_manipulator_msgs:srv/GetJointPosition.srv",
+    "/home/yuzhe/omx_ws/src/open_manipulator_msgs:srv/GetKinematicsPose.srv",
+    "/home/yuzhe/omx_ws/src/open_manipulator_msgs:srv/SetJointPosition.srv",
+    "/home/yuzhe/omx_ws/src/open_manipulator_msgs:srv/SetKinematicsPose.srv",
+    "/home/yuzhe/omx_ws/src/open_manipulator_msgs:srv/SetDrawingTrajectory.srv",
+    "/home/yuzhe/omx_ws/src/open_manipulator_msgs:srv/SetActuatorState.srv"
+  ]
+}

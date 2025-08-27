@@ -1,0 +1,7 @@
+[console_scripts]
+armm = open_manipulator_x_teleop.script.armm:main
+gripper_teleop = open_manipulator_x_teleop.script.gripper_teleop:main
+teleop_keyboard = open_manipulator_x_teleop.script.teleop_keyboard:main
+voice_arm_control = open_manipulator_x_teleop.script.voice_arm_control:main
+voice_control = open_manipulator_x_teleop.script.voice_control:main
+

@@ -1,0 +1,2 @@
+Invoking command in '/home/yuzhe/omx_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuzhe/omx_ws/build/open_manipulator_msgs -- -j20 -l20
+Invoked command in '/home/yuzhe/omx_ws/build/open_manipulator_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuzhe/omx_ws/build/open_manipulator_msgs -- -j20 -l20

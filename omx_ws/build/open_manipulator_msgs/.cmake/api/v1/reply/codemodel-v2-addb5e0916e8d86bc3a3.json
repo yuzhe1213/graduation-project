@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-99a14e460e03838b9199.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "open_manipulator_msgs__py",
+					"jsonFile" : "directory-open_manipulator_msgs__py-9a6d1fab0730da13c550.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/yuzhe/omx_ws/build/open_manipulator_msgs/open_manipulator_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "open_manipulator_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_open_manipulator_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_open_manipulator_msgs_egg-2dccdf798e51cedb754a.json",
+					"name" : "ament_cmake_python_build_open_manipulator_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_open_manipulator_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_open_manipulator_msgs-04aee9da67365bdb6f08.json",
+					"name" : "ament_cmake_python_symlink_open_manipulator_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs-635e13644234a4b2cce2.json",
+					"name" : "open_manipulator_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs__cpp-42a3c217ce00adc92648.json",
+					"name" : "open_manipulator_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "open_manipulator_msgs__py::@81fbac51176bd5f2bb5b",
+					"jsonFile" : "target-open_manipulator_msgs__py-498298bcc11ba1243bf1.json",
+					"name" : "open_manipulator_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs__rosidl_generator_c-7bd87d7a35b2341ffd73.json",
+					"name" : "open_manipulator_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs__rosidl_generator_py-8d3cfc78213a93cee2cb.json",
+					"name" : "open_manipulator_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs__rosidl_typesupport_c-b17999810ad0750b3c30.json",
+					"name" : "open_manipulator_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs__rosidl_typesupport_c__pyext-8c35c2b395fcca658a5f.json",
+					"name" : "open_manipulator_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs__rosidl_typesupport_cpp-f01fec72d061149e7a5f.json",
+					"name" : "open_manipulator_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs__rosidl_typesupport_fastrtps_c-a9c079814b69385641be.json",
+					"name" : "open_manipulator_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs__rosidl_typesupport_fastrtps_c__pyext-603eea150ad9e0ac225f.json",
+					"name" : "open_manipulator_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp-02437eb9a9958bf98367.json",
+					"name" : "open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs__rosidl_typesupport_introspection_c-d67b3d85f761dba086f2.json",
+					"name" : "open_manipulator_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs__rosidl_typesupport_introspection_c__pyext-597ef37cf0d6e031c90e.json",
+					"name" : "open_manipulator_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs__rosidl_typesupport_introspection_cpp-5eb181df9020453865f1.json",
+					"name" : "open_manipulator_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_msgs_uninstall-c75b9a3660df774760a7.json",
+					"name" : "open_manipulator_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2ca63cb0233bec322dee.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yuzhe/omx_ws/build/open_manipulator_msgs",
+		"source" : "/home/yuzhe/omx_ws/src/open_manipulator_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
