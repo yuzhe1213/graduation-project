@@ -66,23 +66,22 @@ import sounddevice as sd
 import json
 import threading
 
-# 初始化 VOSK 模型（請確認你已下載中文模型放在正確路徑）
-vosk_model_path = "/home/yuzhe/vosk_models/model-cn"
+# 加入vosk套件
+vosk_model_path = "/home/yuzhe/vosk_models/model-cn" #注意vosk檔案位置
 model = Model(vosk_model_path)
 recognizer = KaldiRecognizer(model, 16000)
 recognizer.SetWords(False)
 
-# 建立語音監聽執行緒
+
 def start_voice_thread(teleop_keyboard_node):
     def callback(indata, frames, time, status):
         if recognizer.AcceptWaveform(indata):
             result = json.loads(recognizer.Result())
             text = result.get("text", "")
-            if "家" in text:
-                print("🎤 偵測到：夾取！執行 key = 'n'")
+            if "家" in text: #輸入想要的文字
+                print(" 偵測到：夾取！執行 key = 'n'")
                 do_grasp_action(teleop_keyboard_node)
 
-    # 啟動輸入串流（根據你上次印出的裝置 index 調整 device 參數）
     stream = sd.InputStream(samplerate=16000, channels=1, dtype='int16', callback=callback)
     stream.start()
 def callback(indata, frames, time, status):
@@ -102,7 +101,7 @@ class TeleopKeyboard(Node):
         super().__init__('teleop_keyboard')
         key_value = ''
 
-        # Create joint_states subscriber
+
         self.joint_state_subscription = self.create_subscription(
             JointState,
             'joint_states',
@@ -110,7 +109,7 @@ class TeleopKeyboard(Node):
             self.qos)
         self.joint_state_subscription
 
-        # Create kinematics_pose subscriber
+
         self.kinematics_pose_subscription = self.create_subscription(
             KinematicsPose,
             'kinematics_pose',
@@ -118,7 +117,6 @@ class TeleopKeyboard(Node):
             self.qos)
         self.kinematics_pose_subscription
 
-        # Create manipulator state subscriber
         self.open_manipulator_state_subscription = self.create_subscription(
             OpenManipulatorState,
             'states',
@@ -222,7 +220,7 @@ def print_present_values():
         present_kinematics_pose[4],
         present_kinematics_pose[5],
         present_kinematics_pose[6]))
-    print('Gripper Angle(Rad): {:.6f}  # !!!'.format(goal_tool_angle[0]))  # <<< 新增：印出爪子角度
+    print('Gripper Angle(Rad): {:.6f}  # !!!'.format(goal_tool_angle[0]))  # 新增印出爪子角度
 
 
 def main():
@@ -309,9 +307,9 @@ def main():
             
 
             elif key_value == 'n':
-                # !!! 按下 n，機械手臂慢慢移動到抓取姿勢，然後夾取
-                target_joint = [0.001534, 0.018408, 0.018408, 0.004602]  # 設定抓取姿勢角度
-                step = 0.04                              # 每次移動的角度（越小越慢）
+                # 按下 n 夾取
+                target_joint = [0.001534, 0.018408, 0.018408, 0.004602]  # 設定抓取姿勢
+                step = 0.04                              # 每次移動的角度
                 delay = 0.05                             # 每步之間的延遲秒數
 
                 for i in reversed(range(4)):
@@ -326,16 +324,16 @@ def main():
                                 goal_joint_angle[i] = target_joint[i]
 
                         teleop_keyboard.send_goal_joint_space()
-                        rclpy.spin_once(teleop_keyboard, timeout_sec=0.05)  # 等服務處理
+                        rclpy.spin_once(teleop_keyboard, timeout_sec=0.05)
                         import time; time.sleep(delay)
-                # !!! 移動完成後，立即夾取（gripper 關閉）
+                # 移動完成後夾取
                 goal_tool_angle[0] = -0.01
                 teleop_keyboard.send_goal_tool_space()
 
             elif key_value == 'm':
-                # !!! 按下 m 收回
+                # 按下 m 收回
                 target_joint = [-0.081301, -1.038505, 0.684155, 1.402058]  # 設定抓取姿勢角度
-                step = 0.04                              # 每次移動的角度（越小越慢）
+                step = 0.04                              # 每次移動的角度
                 delay = 0.05                             # 每步之間的延遲秒數
 
                 for i in range(4):
@@ -350,16 +348,15 @@ def main():
                                 goal_joint_angle[i] = target_joint[i]
 
                         teleop_keyboard.send_goal_joint_space()
-                        rclpy.spin_once(teleop_keyboard, timeout_sec=0.05)  # 等服務處理
+                        rclpy.spin_once(teleop_keyboard, timeout_sec=0.05)
                         import time; time.sleep(delay)
-                # !!! 移動完成後，立即夾取（gripper 關閉）
-                # goal_tool_angle[0] = 0.0
+                # 移動完成後，立即夾取
                 teleop_keyboard.send_goal_tool_space()
-                print('已夾取！')  # !!! 顯示已夾取提示
+                print('已夾取！') 
             elif key_value == 'b':
-                # !!! 按下 b，機械手臂慢慢移動到抓取姿勢，然後放下
+                #按下 b，手臂慢慢移動到抓取姿勢，然後放下
                 target_joint = [-0.230097, 0.817612, -0.503146, 1.256330]  # 設定抓取姿勢角度
-                step = 0.04                              # 每次移動的角度（越小越慢）
+                step = 0.04                              # 每次移動的角度
                 delay = 0.05                             # 每步之間的延遲秒數
 
                 for i in reversed(range(4)):
@@ -374,12 +371,12 @@ def main():
                                 goal_joint_angle[i] = target_joint[i]
 
                         teleop_keyboard.send_goal_joint_space()
-                        rclpy.spin_once(teleop_keyboard, timeout_sec=0.05)  # 等服務處理
+                        rclpy.spin_once(teleop_keyboard, timeout_sec=0.05)
                         import time; time.sleep(delay)
-                # !!! 移動完成後，立即夾取（gripper 關閉）
+                # 移動完成後，立即夾取
                 goal_tool_angle[0] = 0.0
                 teleop_keyboard.send_goal_tool_space()
-                print('已夾取！')  # !!! 顯示已夾取提示
+                print('已夾取！')
 
             else:
                 if key_value == '\x03':
@@ -422,8 +419,7 @@ def main():
 
         goal_tool_angle[0] = -0.01
         teleop_keyboard.send_goal_tool_space()
-        print('語音夾取完成')  # 顯示訊息
-
+        print('語音夾取完成')
 
 
 if __name__ == '__main__':
