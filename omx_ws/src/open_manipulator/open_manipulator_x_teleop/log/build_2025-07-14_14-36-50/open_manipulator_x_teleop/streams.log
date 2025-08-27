@@ -1,0 +1,25 @@
+[0.488s] Invoking command in '/home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop': PYTHONPATH=/home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/build/open_manipulator_x_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/install/open_manipulator_x_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/open_manipulator_x_teleop build --build-base /home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/build/open_manipulator_x_teleop/build install --record /home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/build/open_manipulator_x_teleop/install.log --single-version-externally-managed install_data
+[0.666s] running egg_info
+[0.667s] writing build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/PKG-INFO
+[0.667s] writing dependency_links to build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/dependency_links.txt
+[0.667s] writing entry points to build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/entry_points.txt
+[0.667s] writing requirements to build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/requires.txt
+[0.667s] writing top-level names to build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/top_level.txt
+[0.669s] reading manifest file 'build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/SOURCES.txt'
+[0.669s] writing manifest file 'build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info/SOURCES.txt'
+[0.670s] running build
+[0.670s] running build_py
+[0.670s] copying open_manipulator_x_teleop/script/gripper_teleop.py -> /home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/build/open_manipulator_x_teleop/build/lib/open_manipulator_x_teleop/script
+[0.670s] running install
+[0.670s] running install_lib
+[0.671s] copying /home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/build/open_manipulator_x_teleop/build/lib/open_manipulator_x_teleop/script/gripper_teleop.py -> /home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/install/open_manipulator_x_teleop/lib/python3.10/site-packages/open_manipulator_x_teleop/script
+[0.671s] byte-compiling /home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/install/open_manipulator_x_teleop/lib/python3.10/site-packages/open_manipulator_x_teleop/script/gripper_teleop.py to gripper_teleop.cpython-310.pyc
+[0.672s] running install_data
+[0.672s] running install_egg_info
+[0.673s] removing '/home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/install/open_manipulator_x_teleop/lib/python3.10/site-packages/open_manipulator_x_teleop-2.3.0-py3.10.egg-info' (and everything under it)
+[0.673s] Copying build/open_manipulator_x_teleop/open_manipulator_x_teleop.egg-info to /home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/install/open_manipulator_x_teleop/lib/python3.10/site-packages/open_manipulator_x_teleop-2.3.0-py3.10.egg-info
+[0.674s] running install_scripts
+[0.689s] Installing gripper_teleop script to /home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop
+[0.689s] Installing teleop_keyboard script to /home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop
+[0.689s] writing list of installed files to '/home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/build/open_manipulator_x_teleop/install.log'
+[0.709s] Invoked command in '/home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop' returned '0': PYTHONPATH=/home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/build/open_manipulator_x_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/install/open_manipulator_x_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/open_manipulator_x_teleop build --build-base /home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/build/open_manipulator_x_teleop/build install --record /home/jun/omx_ws/src/open_manipulator/open_manipulator_x_teleop/build/open_manipulator_x_teleop/install.log --single-version-externally-managed install_data
