@@ -34,7 +34,7 @@ task_position_delta = 0.01  # m
 joint_angle_delta = 0.05    # rad
 path_time = 0.5             # sec
 
-# === 語音辨識 Thread ===
+# 語音辨識
 def start_voice_thread(teleop_keyboard_node):
     model_path = os.path.expanduser("~/vosk_models/model-cn")
     model = Model(model_path)
@@ -58,10 +58,10 @@ def start_voice_thread(teleop_keyboard_node):
 
     threading.Thread(target=run_stream, daemon=True).start()
 
-# === 執行夾取 ===
+#執行夾取
 def do_grasp_action(teleop_keyboard):
     target_joint = [-0.230097, 0.817612, -0.503146, 1.256330]
-    print("💡 目標角度：", target_joint)  # ← 加這行
+    print("💡 目標角度：", target_joint)
     step = 0.04
     delay = 0.05
 
@@ -80,7 +80,7 @@ def do_grasp_action(teleop_keyboard):
     teleop_keyboard.send_goal_tool_space()
     print("✅ 語音夾取完成")
 
-# === 主控制類別 ===
+
 class TeleopKeyboard(Node):
     qos = QoSProfile(depth=10)
     if os.name != 'nt':
@@ -160,12 +160,7 @@ def get_key(settings):
     # print_present_values()
     return key
 
-# def print_present_values():
-#     print('Joint Angle(Rad):', ['{:.3f}'.format(j) for j in present_joint_angle])
-#     print('Pose:', ['{:.3f}'.format(p) for p in present_kinematics_pose])
-#     print('Gripper Angle(Rad): {:.3f}'.format(goal_tool_angle[0]))
 
-# === 主程式 ===
 def main():
     settings = None
     if os.name != 'nt':
@@ -180,7 +175,7 @@ def main():
             rclpy.spin_once(teleop_keyboard)
             key_value = get_key(settings)
 
-            # 鍵盤控制區（略，可自行加入）
+            # 鍵盤控制區
             if key_value == 'g':
                 goal_tool_angle[0] = 0.0
                 teleop_keyboard.send_goal_tool_space()
