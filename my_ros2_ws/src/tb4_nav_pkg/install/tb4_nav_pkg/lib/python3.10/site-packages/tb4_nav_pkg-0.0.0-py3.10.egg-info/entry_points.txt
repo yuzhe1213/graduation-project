@@ -1,0 +1,4 @@
+[console_scripts]
+0725 = tb4_nav_pkg.navigate_and_forward:main
+navigate_and_forward = tb4_nav_pkg.navigate_and_forward:main
+

@@ -1,0 +1,41 @@
+[0.317s] Invoking command in '/home/yuzhe/my_ros2_ws/src/tb4_nav_pkg': PYTHONPATH=/home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/tb4_nav_pkg build --build-base /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/build install --record /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/install.log --single-version-externally-managed install_data
+[0.445s] running egg_info
+[0.445s] creating build/tb4_nav_pkg/tb4_nav_pkg.egg-info
+[0.445s] writing build/tb4_nav_pkg/tb4_nav_pkg.egg-info/PKG-INFO
+[0.445s] writing dependency_links to build/tb4_nav_pkg/tb4_nav_pkg.egg-info/dependency_links.txt
+[0.446s] writing entry points to build/tb4_nav_pkg/tb4_nav_pkg.egg-info/entry_points.txt
+[0.446s] writing requirements to build/tb4_nav_pkg/tb4_nav_pkg.egg-info/requires.txt
+[0.446s] writing top-level names to build/tb4_nav_pkg/tb4_nav_pkg.egg-info/top_level.txt
+[0.446s] writing manifest file 'build/tb4_nav_pkg/tb4_nav_pkg.egg-info/SOURCES.txt'
+[0.446s] reading manifest file 'build/tb4_nav_pkg/tb4_nav_pkg.egg-info/SOURCES.txt'
+[0.447s] writing manifest file 'build/tb4_nav_pkg/tb4_nav_pkg.egg-info/SOURCES.txt'
+[0.447s] running build
+[0.447s] running build_py
+[0.447s] creating /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/build
+[0.447s] creating /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/build/lib
+[0.447s] creating /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/build/lib/tb4_nav_pkg
+[0.447s] copying tb4_nav_pkg/__init__.py -> /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/build/lib/tb4_nav_pkg
+[0.447s] copying tb4_nav_pkg/0725.py -> /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/build/lib/tb4_nav_pkg
+[0.447s] copying tb4_nav_pkg/navigate_and_forward.py -> /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/build/lib/tb4_nav_pkg
+[0.447s] running install
+[0.447s] running install_lib
+[0.449s] creating /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/lib/python3.10/site-packages/tb4_nav_pkg
+[0.449s] copying /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/build/lib/tb4_nav_pkg/__init__.py -> /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/lib/python3.10/site-packages/tb4_nav_pkg
+[0.449s] copying /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/build/lib/tb4_nav_pkg/0725.py -> /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/lib/python3.10/site-packages/tb4_nav_pkg
+[0.449s] copying /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/build/lib/tb4_nav_pkg/navigate_and_forward.py -> /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/lib/python3.10/site-packages/tb4_nav_pkg
+[0.449s] byte-compiling /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/lib/python3.10/site-packages/tb4_nav_pkg/__init__.py to __init__.cpython-310.pyc
+[0.449s] byte-compiling /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/lib/python3.10/site-packages/tb4_nav_pkg/0725.py to 0725.cpython-310.pyc
+[0.450s] byte-compiling /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/lib/python3.10/site-packages/tb4_nav_pkg/navigate_and_forward.py to navigate_and_forward.cpython-310.pyc
+[0.451s] running install_data
+[0.451s] creating /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/share/ament_index
+[0.451s] creating /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/share/ament_index/resource_index
+[0.451s] creating /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/share/ament_index/resource_index/packages
+[0.451s] copying resource/tb4_nav_pkg -> /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/share/ament_index/resource_index/packages
+[0.451s] copying package.xml -> /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/share/tb4_nav_pkg
+[0.451s] running install_egg_info
+[0.452s] Copying build/tb4_nav_pkg/tb4_nav_pkg.egg-info to /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/lib/python3.10/site-packages/tb4_nav_pkg-0.0.0-py3.10.egg-info
+[0.452s] running install_scripts
+[0.466s] Installing 0725 script to /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/lib/tb4_nav_pkg
+[0.466s] Installing navigate_and_forward script to /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/lib/tb4_nav_pkg
+[0.466s] writing list of installed files to '/home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/install.log'
+[0.480s] Invoked command in '/home/yuzhe/my_ros2_ws/src/tb4_nav_pkg' returned '0': PYTHONPATH=/home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/install/tb4_nav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/tb4_nav_pkg build --build-base /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/build install --record /home/yuzhe/my_ros2_ws/src/tb4_nav_pkg/build/tb4_nav_pkg/install.log --single-version-externally-managed install_data
