@@ -6,16 +6,15 @@ from rclpy.node import Node
 from open_manipulator_msgs.srv import SetJointPosition
 from sensor_msgs.msg import JointState
 
-# --- 初始化參數 ---
+# 初始化參數
 goal_joint_angle = [0.0, 0.0, 0.0, 0.0]
 goal_tool_angle = [0.0]
 
-# --- 語音辨識模型 ---
+# 語音辨識模型
 model = Model("/home/yuzhe/vosk_models/model-cn")
 recognizer = KaldiRecognizer(model, 16000)
 recognizer.SetWords(False)
 
-# --- ROS2 節點 ---
 class VoiceArmControl(Node):
     def __init__(self):
         super().__init__('voice_arm_control')
