@@ -1,0 +1,3 @@
+source;share/simple_term_menu_vendor/environment/ament_prefix_path.sh
+source;share/simple_term_menu_vendor/environment/path.sh
+source;share/simple_term_menu_vendor/environment/pythonpath.sh

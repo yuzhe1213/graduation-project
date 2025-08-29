@@ -1,0 +1,7 @@
+setup.py
+simple_term_menu_vendor/__init__.py
+simple_term_menu_vendor/simple_term_menu.py
+simple_term_menu_vendor.egg-info/PKG-INFO
+simple_term_menu_vendor.egg-info/SOURCES.txt
+simple_term_menu_vendor.egg-info/dependency_links.txt
+simple_term_menu_vendor.egg-info/top_level.txt
