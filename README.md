@@ -128,3 +128,28 @@ $ ros2 service call /slam_toolbox/save_map slam_toolbox/srv/SaveMap "name:
 都弄完之後接下來就可以執行檔案了
 
 本次專題一共用到六個終端機
+# 指令介紹
+1. 啟動地圖
+```text
+$ ros2 launch turtlebot4_navigation localization.launch.py map:=map.yaml
+```
+2. 啟動 Navigation
+```text
+$ ros2 launch turtlebot4_navigation nav2.launch.py
+```
+3. 開啟Rviz視窗以此監控整個實驗過程
+```text
+$ ros2 launch turtlebot4_viz view_robot.launch.py
+```
+4. 在執行手臂的節點之前必須啟動手臂的控制器套件，該指令必須在 Raspberry Pi 端執行
+```text
+$ ros2 launch open_manipulator_x_controller open_manipulator_x_controller.launch.py
+```
+5. 執行語音辨識以及手臂的節點
+```text
+$ ros2 run tb4_nav_pkg vosk_arm
+```
+6. 執行 tb4_nav 節點，當vosk_arm 發布「餅乾、飲料、電池」等目標名稱時，tb4_nav 會根據目標名稱切換對應的座標，並在夾取完成後回到放置點
+```text
+$ ros2 run tb4_nav_pkg tb4_nav
+```
