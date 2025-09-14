@@ -119,8 +119,10 @@ colcon build --symlink-install
 # 繪製地圖
 ```text
 $ ros2 launch turtlebot4_navigation slam.launch.py
+
 打開rivz2來看地圖繪製的狀況
 $ ros2 launch turtlebot4_viz view_robot.launch.py
+
 跑完之後就可以儲存地圖了
 $ ros2 service call /slam_toolbox/save_map slam_toolbox/srv/SaveMap "name:
   data: 'map_name'"
@@ -141,7 +143,7 @@ $ ros2 launch turtlebot4_navigation nav2.launch.py
 ```text
 $ ros2 launch turtlebot4_viz view_robot.launch.py
 ```
-4. 在執行手臂的節點之前必須啟動手臂的控制器套件，該指令必須在 Raspberry Pi 端執行
+4. 在執行手臂的節點之前必須啟動手臂的控制器套件，該指令必須在 Raspberry Pi (Turtlebot4)端執行
 ```text
 $ ros2 launch open_manipulator_x_controller open_manipulator_x_controller.launch.py
 ```
@@ -149,7 +151,7 @@ $ ros2 launch open_manipulator_x_controller open_manipulator_x_controller.launch
 ```text
 $ ros2 run tb4_nav_pkg vosk_arm
 ```
-6. 執行 tb4_nav 節點，當vosk_arm 發布「餅乾、飲料、電池」等目標名稱時，tb4_nav 會根據目標名稱切換對應的座標，並在夾取完成後回到放置點
+6. 執行 tb4_nav 節點，當vosk_arm 發布「餅乾、飲料、麵包」等目標名稱時，tb4_nav 會根據目標名稱切換對應的座標，並在夾取完成後回到放置點
 ```text
 $ ros2 run tb4_nav_pkg tb4_nav
 ```
