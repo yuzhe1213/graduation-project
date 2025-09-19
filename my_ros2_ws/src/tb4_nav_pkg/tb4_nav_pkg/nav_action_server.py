@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-
+#本程式有使用AI撰寫
+#此段為測試cmd_vel前進的程式碼
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionClient
