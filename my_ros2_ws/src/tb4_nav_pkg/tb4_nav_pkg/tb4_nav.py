@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+#本程式部分有參考chat gpt
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionClient
