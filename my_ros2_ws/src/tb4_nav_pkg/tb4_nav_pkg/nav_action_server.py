@@ -40,7 +40,7 @@ class NavActionNode(Node):
 
     def trigger_callback(self, msg):
         if msg.data:
-            self.get_logger().info('🧭 收到導航觸發，開始導航...')
+            self.get_logger().info('收到導航觸發，開始導航')
             self.navigate()
 
     def navigate(self):
@@ -80,14 +80,14 @@ class NavActionNode(Node):
     def goal_response_callback(self, future):
         goal_handle = future.result()
         if not goal_handle.accepted:
-            self.get_logger().warn('❌ 導航被拒絕')
+            self.get_logger().warn('導航被拒絕')
             return
 
-        self.get_logger().info('📍 導航中...')
+        self.get_logger().info('導航中')
         goal_handle.get_result_async().add_done_callback(self.forward_and_notify)
 
     def forward_and_notify(self, future):
-        self.get_logger().info('✅ 到達導航目標，開始前進 0.5 公尺...')
+        self.get_logger().info('到達導航目標，開始前進 0.5 公尺')
 
         twist = Twist()
         twist.linear.x = 0.1
@@ -100,7 +100,7 @@ class NavActionNode(Node):
                 self.cmd_vel_pub.publish(twist)
             else:
                 self.cmd_vel_pub.publish(Twist())
-                self.get_logger().info('🟢 前進完成，通知手臂執行夾取')
+                self.get_logger().info('前進完成，通知手臂執行夾取')
                 self.done_pub.publish(Bool(data=True))
                 self.timer.cancel()
 
