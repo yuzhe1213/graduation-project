@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+#本程式有使用AI撰寫
 from vosk import Model, KaldiRecognizer
 import sounddevice as sd
 import json
