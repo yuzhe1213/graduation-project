@@ -59,7 +59,6 @@ class NavActionNode(Node):
             yaw = math.atan2(siny_cosp, cosy_cosp)
 
             yaw += math.pi  # 轉 180 度
-            # 替代 quaternion_from_euler：直接手算四元數
             q_rot = Quaternion()
             q_rot.x = 0.0
             q_rot.y = 0.0
